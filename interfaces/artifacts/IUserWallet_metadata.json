@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "depositEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"programa/MulticontractWallet/interfaces/IUserWallet.sol": "IUserWallet"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"programa/MulticontractWallet/interfaces/IUserWallet.sol": {
+			"keccak256": "0xac8c4910d27fcea480a33b435d9db62e829d9b2f3d63922656dc6072dd7b2672",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c9883cd7e6b19c252bd1179c6e29b2809bb597561c1ffb8ab42780006643ac61",
+				"dweb:/ipfs/QmTtZpJhqgKtq41GaYE41fim97Kx9pfHGeD5kjofoNcZCg"
+			]
+		}
+	},
+	"version": 1
+}

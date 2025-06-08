@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_userWallet",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_newApproved",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "_approved",
+						"type": "bool"
+					}
+				],
+				"name": "approveContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_userWallet",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_newApproved",
+						"type": "address"
+					}
+				],
+				"name": "isContractApproved",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"programa/MulticontractWallet/interfaces/IAccessManager.sol": "IAccessManager"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"programa/MulticontractWallet/interfaces/IAccessManager.sol": {
+			"keccak256": "0x3dbd01542e5081be7f5e2e9f912c0770e810e85ccd68b04dbac22f41c3881704",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a3b8cc1f64a67e7f74e9214fadc44c40953d854a1f6dac9b2affa74dad7c8597",
+				"dweb:/ipfs/QmXBxuE3ihBDJTMADNhG9FmY8XZGkKiWnGX45noQBNoVVQ"
+			]
+		}
+	},
+	"version": 1
+}

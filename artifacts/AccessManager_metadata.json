@@ -1,0 +1,135 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_userWallet",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_newApproved",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "_approved",
+						"type": "bool"
+					}
+				],
+				"name": "approveContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isApproved",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_userWallet",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_approvedWallet",
+						"type": "address"
+					}
+				],
+				"name": "isContractApproved",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"programa/MulticontractWallet/AccessManager.sol": "AccessManager"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"programa/MulticontractWallet/AccessManager.sol": {
+			"keccak256": "0x552682915a874f9ceed4b17755ba365ef122cbce3208e6ed646edd0b1eeef8a8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f7fcc4752807953927b5c7ae09c021a7fa154c6d27a7c86623046352ddc1779f",
+				"dweb:/ipfs/QmVtPBEnXvUZKZMN9aKChio9UUozjYyhQz2VhXfng9QqoH"
+			]
+		}
+	},
+	"version": 1
+}

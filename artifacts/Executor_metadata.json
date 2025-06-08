@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_wallet",
+						"type": "address"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_wallet",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"programa/MulticontractWallet/Executor.sol": "Executor"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"programa/MulticontractWallet/Executor.sol": {
+			"keccak256": "0xba72e8931be8839ce9292c983a9d20d916bc332a255aa36a0214b6d67a193e97",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://53c355c56b0fe221e05e87487839897639ce9f3413f830fe3aa1ca7148afa3ee",
+				"dweb:/ipfs/QmfVLqTg3f6vrEzzWjTKxMjXfP8mq9bLxmiYgAEwn9DqCf"
+			]
+		},
+		"programa/MulticontractWallet/interfaces/IUserWallet.sol": {
+			"keccak256": "0xac8c4910d27fcea480a33b435d9db62e829d9b2f3d63922656dc6072dd7b2672",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c9883cd7e6b19c252bd1179c6e29b2809bb597561c1ffb8ab42780006643ac61",
+				"dweb:/ipfs/QmTtZpJhqgKtq41GaYE41fim97Kx9pfHGeD5kjofoNcZCg"
+			]
+		}
+	},
+	"version": 1
+}
